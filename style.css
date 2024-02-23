@@ -1,0 +1,502 @@
+/******* Reset start *********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+main {
+    background-color: #F5F5F5;
+    list-style: none;
+}
+footer {
+    background-color: #FEFEFE;
+    list-style: none;
+}
+/******* Reset slut *********/
+
+.top {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* TEKST START*/
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #EB4E27;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-inline: 20px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+a:hover {
+    color: #EB4E27;
+}
+/* TEKST SLUT */
+
+/* Breadcrumb start */
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 1rem;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #023473;
+    text-decoration: none;
+    font-size: 0.6rem;
+}
+
+ul.breadcrumb li a:hover {
+    color: #EB4E27;
+    text-decoration: none;
+}
+/* Breadcrumb slut */
+
+/* FORSIDE */
+.forside {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+.h1_destinationer {
+    font-size: 2.4rem;
+    text-align: center;
+    padding-inline: 20px;
+}
+.destinationer {
+    margin: 0 auto;
+    background-color: #FEFEFE;
+    padding: 13px;
+}
+.ramme {
+    background-color: #FEFEFE;
+    border: solid 4px #EB4E27;
+    padding: 60px;
+    padding-inline: initial;
+    align-items: center;
+    text-align: center;
+    margin-inline: auto;    
+}
+
+.ramme a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: #EB4E27;
+    color: #FEFEFE;
+    text-decoration: none;
+    box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+    display: inline-block;
+    margin-inline: 20px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    }
+.ramme a:hover {
+    background-color: #023473;
+    transition: 0.2s;
+}
+.kontakt {
+    margin: 0 auto;
+    background-color: #d3e3ee84;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 50px;
+}
+
+.knap_kontakt {
+    background-color: #FEFEFE;
+    box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+    display: inline-block;
+    margin-inline: 20px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.kontakt a h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    list-style: none;
+}
+
+.kontakt a {
+    list-style: none;
+    color: black;
+}
+
+/* index slut */
+
+/* Destinationer start */
+.destinationer2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+.destinationer2 img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.h1_destinationer2 {
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+}
+.h1_destinationer2 h1 {
+    color: #FEFEFE;
+    background-color: #EB4E27;
+    font-size: 2.4rem;
+    padding-inline: 10px;
+}
+.place {
+    background-color: #FEFEFE;
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+.ned {
+    color: #EB4E27;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.grid_place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-inline: 15px;
+    padding-top: 15px;
+}
+.grid_place a {
+    font-size: 1rem;
+    color: black;
+    background-color: #FEFEFE;
+    border: solid 1px #EB4E27;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.grid_place a:hover{
+    background-color: #023473;
+    color: #FEFEFE;
+    border: solid 1px #023473;
+}
+    /* Destinationer slut */
+
+/* Asien start */
+.asien {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+.asien img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.h1_asien {
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+}
+
+.h1_asien h1 {
+    color: #FEFEFE;
+    background-color: #EB4E27;
+}
+
+.asien_ramme {
+    background-color: #FEFEFE;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.grid_lande {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-inline: 15px;
+}
+
+.grid_lande a {
+    font-size: 1rem;
+    color: black;
+    background-color: #FEFEFE;
+    border: solid 1px #EB4E27;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.grid_lande a:hover {
+    background-color: #023473;
+    color: #FEFEFE;
+    border: solid 1px #023473;
+}
+
+/* Asien slut */
+
+/* vietnam start */
+.vietnam {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+.vietnam img {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.vietnam_ramme {
+    background-color: #FEFEFE;
+    border: solid 4px #EB4E27;
+    
+}
+.h1_vietnam{
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+}
+
+.h1_vietnam h1{
+    color: #FEFEFE;
+    background-color: #EB4E27;
+}
+.vietnam a{
+    font-size: 1rem;
+    color: black;
+}
+.vietnam a:hover {
+    text-decoration: underline;
+    color: #023473;
+}
+.vietnam p {
+    color: black;
+}
+
+.grid_7-6 {
+    display: grid;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+.grid_6-7 {
+    display: grid;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+.tekst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.tekst2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.billeder2 {
+    grid-row: 1/2;
+}
+
+.h3_side_by_side {
+    grid-column: span 2;
+}
+.side_by_side {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 10px;
+}
+.main_side_by_side {
+display: grid;
+grid-template-rows: auto 1fr;
+}
+
+.top img {
+width: 30px;
+margin-left: auto;
+color: #023473;
+}
+
+.top img a:hover {
+    background-color: #EB4E27;
+}
+
+/* vietnam slut */
+
+/***************** Pakkeliste start *****************/
+.pakkeliste {
+    background-color: #F5F5F5;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.h1_pakkeliste {
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+    padding: 10px 10px;
+}
+
+.h1_pakkeliste h1 {
+    color: #FEFEFE;
+    background-color: #EB4E27;
+}
+.ramme_pakkeliste {
+    background-color: #FEFEFE;
+    border: solid 4px #EB4E27;
+    padding: 10px;
+}
+
+.overdele, .underdele {
+    background-color: #d3e3ee84;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+    padding-top: 17px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.toiletsager {
+    background-color: #d3e3ee84;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-top: 17px;
+
+}
+.overdele h3,
+.underdele h3,
+.toiletsager h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.overdele div, .underdele div {
+    display: block;
+    margin-bottom: 25px; 
+
+}
+.liste_overdele, .liste_underdele{
+    margin-left: 15px;
+}
+
+.toiletsager div {
+    margin-bottom: 25px;
+}
+
+.del1 {
+    margin-left: 15px;
+}
+.del2 {
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+
+/* Style for den uskarpe (ikke markeret) tilstand */
+input[type="checkbox"] {
+    appearance: checkbox;
+    width: 20px;
+    height: 20px;
+    background-color: #FEFEFE;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+/* Style for den markerede tilstand */
+input[type="checkbox"]:checked {
+    appearance: checkbox;
+    color: #023473;
+}
+
+/* Tilpas etiketsteksten for at placere den ved siden af afkrydsningsfeltet */
+label {
+    display: inline-block;
+    margin-left: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+
+}
+
+.line_pakkeliste {
+    width: 80%;
+    height: 1px;
+    background-color: black;
+}
+
+/***************** Pakkeliste slut *****************/
+
+/* FOOTER START */
+.footer_indhold {
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding-inline: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_indhold p {
+    font-size: 0.7rem;
+    text-align: center;
+    color: #023473;
+}
+
+.iconer {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-left: 25px; */
+}
+

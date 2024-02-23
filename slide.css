@@ -1,0 +1,37 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slide {
+    float: left;
+    width: 100%;
+    display: none;
+    position: relative;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+.prev, .next {
+    color: #EFEFEF;
+    font-size: 4rem;
+    opacity: 0.3;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Centrer lodret på billedet */
+    z-index: 1;
+}
+.next:hover, .prev:hover {
+    opacity: 1;
+    transition: 0.5s;
+}

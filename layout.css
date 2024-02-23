@@ -1,0 +1,188 @@
+@media (min-width: 800px) {
+/* TEKST START*/
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        padding-inline: 20px;
+        margin: 10px 16px;
+        }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+    ul.breadcrumb li a {
+        font-size: 0.93rem;
+        }
+    /* TEKST SLUT */
+
+
+.top {
+    max-width: 1350px;
+}
+/* INDEX START */
+
+.h1_destinationer {
+    font-size: 3rem;
+}
+
+.destinationer {
+    padding: 65px;
+}
+
+/* INDEX SLUT */
+
+/* vietnam start */
+
+    .vietnam a {
+        font-size: 1.5rem;
+    }
+
+    .grid_7-6 {
+        display: grid;
+        grid-template-columns: 7fr 6fr;
+        padding: 20px;
+    }
+    .grid_7-6 h3 {
+        grid-column: inherit;
+    }
+
+    .grid_6-7 {
+        display: grid;
+        grid-template-columns: 6fr 7fr;
+        padding: 20px;
+    }
+
+    .h3_tekst {
+        display: block;
+        text-align: left;
+    }
+    .tekst {
+        display: block;
+        text-align: left;
+        line-height: 4.5rem;
+    }
+    .billeder2 {
+        grid-row: inherit;
+    }
+    .h3_tekst2 {
+        display: block;
+        text-align: right;
+    }
+    .tekst2 {
+        display: block;
+        text-align: right;
+        line-height: 4.5rem;
+    }
+
+    .h3_side_by_side {
+        grid-column: span 2;
+        text-align: left;
+    }
+
+    .side_by_side {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .side_by_side div {
+        display: grid;
+        gap: 20px;
+    }
+
+/* VIETNAM SLUT */
+
+
+
+    /* Pakkeliste start*/
+    
+    .grid_1_1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+    }
+
+    .overdele h3,
+    .underdele h3,
+    .toiletsager h3 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .overdele div, .underdele div {
+        display: block;
+        margin-bottom: 35px;
+    }
+    .overdele {
+        margin-right: 25px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 1px;
+    }
+    .underdele {
+        padding-left: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 1px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .toiletsager div {
+        margin-bottom: 35px;
+    }
+    .toiletsager {
+        margin-top: 20px;
+    }
+
+    .del1 {
+        margin-left: 35px;
+    }
+
+    .del2 {
+        margin-left: 55px;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+
+
+
+/* pakkeliste slut */
+
+/* FOOTER START */
+.footer_indhold {
+    display: flex;
+    /* align-items: center; */
+}
+
+.footer_indhold p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+
+.sociale p {
+    grid-column: span 2;
+}
+.iconer {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    position: absolute;
+    /* gap: 10px; */
+}
+
+
+}
